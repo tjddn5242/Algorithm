@@ -132,3 +132,48 @@ else: ('Fail')
 result = "Success" if score >= 80 else "Fail"
 print(result)
 
+# 반복문
+print("=====반복문=====")
+
+result=0
+for i in range(1,10):
+  result+=i
+
+print(result)
+
+scores = [90,85,77,65,97]
+cheating_list={2,4}
+
+for i in range(5):
+  if i+1 in cheating_list:
+    continue
+  elif scores[i]>=80:
+    print(i+1,"번 학생은 통과")
+
+
+# 함수
+print("=====함수=====")
+
+def add(x,y):
+  print(x+y)
+
+add(1,2)
+
+a = 0
+
+def func():
+  global a 
+  a += 1
+
+for i in range(10):
+  func()
+
+print(a)
+
+print((lambda a,b:a+b)(3,7))
+
+# 입출력
+print("=====입출력=====")
+
+data = list(map(int, input().split()))
+print(data)
