@@ -10,6 +10,5 @@ for l in range(1,10): # 100의 자리
 for idx,k in enumerate(HS):
   if k<=N:
     answer = idx + 1
-    
 
 print(answer)
