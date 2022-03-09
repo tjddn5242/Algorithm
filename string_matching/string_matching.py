@@ -90,6 +90,3 @@ for _ in range(Q):
 
     print('\n[Question3]')
     question3(S, list_)
-    # print(f'\n[Question3]\n{question3(S, list_)}')
-    # for i in question2(S, q).keys():
-    #     print(f'#pos = {question2(S, q)[i]}, pattern = {i}')
